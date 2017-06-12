@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
 
 # Source Info
   s.platform     =  :ios, '6.1'
-  s.source       =  { :git => 'https://github.com/ali312/TLTagsControl', :branch => 'master' }
+  s.source       =  { :git => 'https://github.com/ali312/TLTagsControl', :branch => 'master', :tag => s.version.to_s }
   s.source_files = 'TLTagsContol/TLTagsControl.{h,m}'
   s.requires_arc = true
 end
